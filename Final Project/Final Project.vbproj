@@ -72,11 +72,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="InventoryForm.Designer.vb">
+      <DependentUpon>InventoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,16 +100,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="OrdersForm.Designer.vb">
+      <DependentUpon>OrdersForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeForm.Designer.vb">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="InventoryForm.resx">
+      <DependentUpon>InventoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdersForm.resx">
+      <DependentUpon>OrdersForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeForm.resx">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
