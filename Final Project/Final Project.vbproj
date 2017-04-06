@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditRecipeForm.Designer.vb">
+      <DependentUpon>EditRecipeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditRecipeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InventoryForm.Designer.vb">
       <DependentUpon>InventoryForm.vb</DependentUpon>
     </Compile>
@@ -114,6 +120,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EditRecipeForm.resx">
+      <DependentUpon>EditRecipeForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventoryForm.resx">
       <DependentUpon>InventoryForm.vb</DependentUpon>
     </EmbeddedResource>
