@@ -29,9 +29,9 @@ Partial Class MainForm
         Me.OrdersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InventoryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MealPlansToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RecipesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyRecipesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RecipesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -82,6 +82,12 @@ Partial Class MainForm
         Me.MealPlansToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.MealPlansToolStripMenuItem.Text = "Meal Plans"
         '
+        'RecipesToolStripMenuItem
+        '
+        Me.RecipesToolStripMenuItem.Name = "RecipesToolStripMenuItem"
+        Me.RecipesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RecipesToolStripMenuItem.Text = "Recipes"
+        '
         'MyRecipesToolStripMenuItem
         '
         Me.MyRecipesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewToolStripMenuItem1})
@@ -92,14 +98,8 @@ Partial Class MainForm
         'ViewToolStripMenuItem1
         '
         Me.ViewToolStripMenuItem1.Name = "ViewToolStripMenuItem1"
-        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
+        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(99, 22)
         Me.ViewToolStripMenuItem1.Text = "View"
-        '
-        'RecipesToolStripMenuItem
-        '
-        Me.RecipesToolStripMenuItem.Name = "RecipesToolStripMenuItem"
-        Me.RecipesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.RecipesToolStripMenuItem.Text = "Recipes"
         '
         'MainForm
         '
